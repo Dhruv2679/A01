@@ -8,14 +8,14 @@ Uses the **California Housing dataset** loaded directly from `scikit-learn` — 
 ## How to run
 1. Install dependencies:
 
-# install the requirements txt file
+Install the requirements txt file
 pip install -r requirements.txt
 
-# change your working directory as needed to the A01 repo
+Change your working directory as needed to the A01 repo
 cd path/to/A01
 
 2. Run the script:
-# run the code
+Run the code
 python src/boxplot.py
 
 Output: We should see a script and a boxplot
