@@ -5,17 +5,15 @@ A Python script that generates and saves a boxplot from the California Housing d
 ## Data
 Uses the **California Housing dataset** loaded directly from `scikit-learn` — no manual download needed.
 
+# A01 — California Housing Boxplot
+
+Loads the California Housing dataset and generates a boxplot of median house values by ocean proximity.
+
 ## How to run
-1. Install dependencies:
 
-Install the requirements txt file
-pip install -r requirements.txt
+1. Install dependencies: `pip install -r requirements.txt`
+2. From the repo root, run: `python src/boxplot.py`
 
-Change your working directory as needed to the A01 repo
-cd path/to/A01
+## Output
 
-2. Run the script:
-Run the code
-python src/boxplot.py
-
-Output: We should see a script and a boxplot
+A boxplot saved to `figs/boxplot.png`.
