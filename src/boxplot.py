@@ -1,8 +1,4 @@
-"""
-A01 - California Housing Boxplot
-OPIM 5512 | Dr. Dave Wanik
-Loads the California Housing dataset and saves a boxplot to figs/boxplot.png
-"""
+
 
 import os
 import pandas as pd
